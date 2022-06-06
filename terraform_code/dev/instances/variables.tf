@@ -1,7 +1,7 @@
 # Instance type
 variable "instance_type" {
   default = {
-    "dev"     = "t2.micro"
+    "dev" = "t2.micro"
   }
   description = "Type of the instance"
   type        = map(string)
